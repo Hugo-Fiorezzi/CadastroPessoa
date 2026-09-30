@@ -182,4 +182,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
         this.listaPessoa.add(pessoa);
     }
     
+    public void removerPessoaLista(int index) {
+        if (index >= 0 && index < listaPessoa.size()) {
+            this.listaPessoa.remove(index);
+        }
+    }
 }
